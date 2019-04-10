@@ -1,10 +1,7 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify'
-Vue.use(Vuetify)
+import './plugins/axios'
+import './plugins/vuetify'
 import App from './App.vue'
-
-import 'vuetify/dist/vuetify.min.css'
-
 
 Vue.config.productionTip = false
 
